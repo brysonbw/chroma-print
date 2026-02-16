@@ -1,0 +1,28 @@
+[package]
+name = "chroma-print"
+version = "1.0.0"
+edition = "2024"
+description = "A lightweight utility for styled terminal printing using ANSI escape codes."
+license = "MIT"
+categories = ["command-line-utilities", "development-tools"]
+keywords = [
+  "print",
+  "paint",
+  "logging",
+  "ansi",
+  "colors"
+]
+readme = "README.md"
+homepage = "https://github.com/brysonbw/chroma-print"
+repository = "https://github.com/brysonbw/chroma-print"
+authors = ["Bryson Ward"]
+documentation = "https://docs.rs/chroma-print"
+include = ["src/**/*.rs", "README.md", "LICENSE"]
+
+[profile.test]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = true
