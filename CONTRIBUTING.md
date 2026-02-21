@@ -71,7 +71,7 @@ If you don't already have [Git](https://git-scm.com/) installed, install it firs
 7. Open the `chroma-print` folder in your favorite editor. If you don't have one, try [Visual Studio Code](https://code.visualstudio.com/)
 
 > [!NOTE]
-> A few additional developer tools you may want to install for this project and and for general Rust development:
+> A few additional developer tools you may want to install for this project and for general Rust development:
 >
 > - [cargo-watch](https://crates.io/crates/cargo-watch) - Watches over your Cargo project’s source
 > - [rust-clippy](https://github.com/rust-lang/rust-clippy?tab=readme-ov-file#as-a-cargo-subcommand-cargo-clippy) - A bunch of lints to catch common mistakes and improve your Rust code
@@ -152,7 +152,8 @@ Before you submit your Pull Request (PR) consider the following:
    git commit -m "fix(<scope>): <message>"
    ```
 
-> [!NOTE] Please write commit messages following the Conventional Commitsspecification, particularly by using a [commit message with ascope](https://www.conventionalcommits.org/en/v1.0.0#commit-message-with-scope-and--to-draw-attention-to-breaking-chane). Also, we encourage you to _keep your commits small andmeaningul_.
+> [!NOTE]
+> Please write commit messages following the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary), particularly by using a [commit message with a scope](https://www.conventionalcommits.org/en/v1.0.0/#commit-message-with-scope). Also, we encourage you to _keep your commits small and meaningful_.
 
 8. Push your branch to your remote fork:
 
