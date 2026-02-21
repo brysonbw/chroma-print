@@ -5,7 +5,7 @@
 //! $ cargo install chroma-print
 //! ```
 //!
-//! //! ## Install as a library
+//! ## Install as a library
 //! ```console
 //! $ cargo add chroma-print
 //! ```
