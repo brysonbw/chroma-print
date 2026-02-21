@@ -2,8 +2,8 @@
 
 A lightweight utility for styled terminal printing using ANSI escape codes.
 
-[![Crates.io](https://img.shields.io/crates/v/chroma-print?style=flat-square)](https://crates.io/crates/chroma-print)
-[![Crates.io](https://img.shields.io/crates/d/chroma-print?style=flat-square)](https://crates.io/crates/chroma-print)
+[![Crates.io](https://img.shields.io/crates/v/chroma-print?style=flat)](https://crates.io/crates/chroma-print)
+[![Crates.io](https://img.shields.io/crates/d/chroma-print?style=flat)](https://crates.io/crates/chroma-print)
 ![CI](https://img.shields.io/github/actions/workflow/status/brysonbw/chroma-print/ci.yml?branch=main&style=flat&logo=github&label=CI)
 
 ## Install globally
