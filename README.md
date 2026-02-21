@@ -37,3 +37,20 @@ fn main() {
     eprintln!("{}", ChromaPrint::error("Error!"));
 }
 ```
+
+## Contributing
+
+If you have suggestions for how this project could be improved, or want to report a bug, feel free to open an issue! We welcome all contributions.
+
+Likewise, before contributing please read and complete the [contribution guide](CONTRIBUTING.md).
+
+## Resources
+
+- [Changelog](CHANGELOG.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
+
+## License
+
+[MIT](LICENSE)
