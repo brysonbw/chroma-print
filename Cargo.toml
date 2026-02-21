@@ -1,6 +1,6 @@
 [package]
 name = "chroma-print"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 description = "A lightweight utility for styled terminal printing using ANSI escape codes."
 license = "MIT"
