@@ -2,8 +2,8 @@
 
 A lightweight utility for styled terminal printing using ANSI escape codes.
 
-[![Crates.io](https://img.shields.io/crates/v/chroma-print?style=flat-square)](https://crates.io/crates/chroma-print)
-[![Crates.io](https://img.shields.io/crates/d/chroma-print?style=flat-square)](https://crates.io/crates/chroma-print)
+[![Crates.io](https://img.shields.io/crates/v/chroma-print?style=flat)](https://crates.io/crates/chroma-print)
+[![Crates.io](https://img.shields.io/crates/d/chroma-print?style=flat)](https://crates.io/crates/chroma-print)
 ![CI](https://img.shields.io/github/actions/workflow/status/brysonbw/chroma-print/ci.yml?branch=main&style=flat&logo=github&label=CI)
 
 ## Install globally
@@ -37,3 +37,20 @@ fn main() {
     eprintln!("{}", ChromaPrint::error("Error!"));
 }
 ```
+
+## Contributing
+
+If you have suggestions for how this project could be improved, or want to report a bug, feel free to open an issue! We welcome all contributions.
+
+Likewise, before contributing please read and complete the [contribution guide](CONTRIBUTING.md).
+
+## Resources
+
+- [Changelog](CHANGELOG.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
+
+## License
+
+[MIT](LICENSE)
