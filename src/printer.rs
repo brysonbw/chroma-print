@@ -1,6 +1,6 @@
 use crate::colors::Color;
 
-/// A utility struct for printing colored messages to the terminal.
+/// A utility struct for printing colored messages to the terminal
 pub struct ChromaPrint;
 
 impl ChromaPrint {
