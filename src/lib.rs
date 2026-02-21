@@ -1,12 +1,19 @@
 //! > **A lightweight utility for styled terminal printing using ANSI escape codes.**
 //!
-//! ## Install
+//! ## Install globally
+//! ```console
+//! $ cargo install chroma-print
+//! ```
+//!
+//! //! ## Install as a library
 //! ```console
 //! $ cargo add chroma-print
 //! ```
+//!
 //! ## Usage
 //! ```rust
 //! use chroma_print::{ChromaPrint, print_error, print_info, print_success, print_warn};
+//!
 //! fn main() {
 //!     // Using the provided macros for convenient styled printing:
 //!     print_success!("This is a success message!");

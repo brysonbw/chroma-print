@@ -4,8 +4,15 @@ A lightweight utility for styled terminal printing using ANSI escape codes.
 
 [![Crates.io](https://img.shields.io/crates/v/chroma-print?style=flat-square)](https://crates.io/crates/chroma-print)
 [![Crates.io](https://img.shields.io/crates/d/chroma-print?style=flat-square)](https://crates.io/crates/chroma-print)
+![CI](https://img.shields.io/github/actions/workflow/status/brysonbw/chroma-print/ci.yml?branch=main&style=flat&logo=github&label=CI)
 
-## Install
+## Install globally
+
+```bash
+cargo install chroma-print
+```
+
+## Install as a library
 
 ```bash
 cargo add chroma-print
@@ -15,6 +22,7 @@ cargo add chroma-print
 
 ```rust
 use chroma_print::{ChromaPrint, print_error, print_info, print_success, print_warn};
+
 fn main() {
     // Using the provided macros for convenient styled printing:
     print_success!("This is a success message!");
